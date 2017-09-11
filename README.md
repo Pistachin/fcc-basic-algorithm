@@ -6,11 +6,17 @@ The way I solved these algorithms is not the only way of doing it, and might not
 
 Thus it comes the second goal of this repository. That is that any 'camper' from Free Code Camp can have the solution to these challenges if they find themselves stuck with a challenge, or even if they have solved it, they can see how others did it.
 
-What I will change is some real errors or styling. For instance, taking away semicolons or translating spanish comments to english.
+What I will change is some real errors or styling. For instance, taking away unnecessary semicolons or translating spanish comments to english.
 
-- First Commit: As is. Some files are already changed (comments in english, no unnecessary semicolons, etc.) but not all, so they will be changed through time and pushed to this GH repository.
-
-Legend:
+General legend:
+  - All the challenges include a 'console.log()'. This is due to the fact that I solved all the algorithms first using an IDE and nodejs, and then I copied the code to the FCC website in order to pass the challenge.
+  - The 'console.log()' is not needed in order to solve the challenge in the FCC website.
   - There are some algorithms that I solved in more than one way, by different reasons. You'll find them with an ending such as 'v1' or 'v2'. Both should pass the FCC challenge.
   - The algorithm with 'R-version' was solved also two times. One by me and another by a senior front-end developer so it might not be as easy to read as the rest.
   - 'TBF' means 'To Be Fixed', I still have to check why I thought it had to be fixed. And when it is fixed, the 'TBF' will be taken away from the name.
+
+Commits Legend:
+
+- First Commit: As is. Some files are already changed (comments in english, no unnecessary semicolons, etc.) but not all, so they will be changed through time and pushed to this GH repository.
+
+- Reverse Commit: Cleaned code in challenge 01, plus added what is the goal of this challenge as a initial comment.
