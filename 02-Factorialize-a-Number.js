@@ -1,8 +1,9 @@
+/* The main goal of this challenge is to return the factorial of a given number. */
+
 var factorialize = function (num) {
-  var givenNumber = num
   var n = 1
   var x = 1
-  for (var i = 0; i < givenNumber; i++) {
+  for (var i = 0; i < num; i++) {
     n = n * x
     x++
   }

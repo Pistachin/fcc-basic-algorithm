@@ -1,6 +1,7 @@
+/* A simple requirement. To return only the lenght of the longest word in a given string. The 'return' result should be a number. */
+
 var findLongestWord = function (str) {
-  var primalStr = str
-  var firstArray = primalStr.split(' ')
+  var firstArray = str.split(' ')
   var secondArray = firstArray.map(function (val) {
     return val.length
   })
