@@ -11,14 +11,16 @@ What I will change is some real errors or styling. For instance, taking away unn
 General legend:
   - All the challenges include a 'console.log()'. This is due to the fact that I solved all the algorithms first using an IDE and nodejs, and then I copied the code to the FCC website in order to pass the challenge.
   - The 'console.log()' is not needed to solve the challenge in the FCC website.
-  - There are some algorithms that I solved in more than one way, by different reasons. You'll find them with an ending such as 'v1' or 'v2'. Both should pass the FCC challenge.
+  - There are some algorithms that I solved in more than one way, for different reasons. You'll find them with an ending such as 'v1' or 'v2'. Both should pass the FCC challenge.
   - The algorithm with 'R-version' was solved also two times. One by me and another by a senior front-end developer so it might not be as easy to read as the rest.
   - 'TBF' means 'To Be Fixed', I still have to check why I thought it had to be fixed. And when it is fixed, the 'TBF' will be taken away from the name.
 
-Commits Legend:
+Commits Legend (ordered from eldest to most recent):
 
 - First Commit: As is. Some files are already changed (comments in english, no unnecessary semicolons, etc.) but not all, so they will be changed through time and pushed to this GH repository.
 
 - Reverse Commit: Cleaned code in challenge 01, plus added what is the goal of this challenge as a initial comment.
 
 - Two to four Commit: Cleaner code and added challenge goal to challenges two, three and four.
+
+- Lucky Seven Commit: Cleaner code and added challenge goal to challenges five to seven. Plus I explained the reasons why there are two versions of challenge number six.
