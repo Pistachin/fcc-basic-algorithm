@@ -28,3 +28,5 @@ What I will change is some real errors or styling. For instance, taking away unn
 - Two to four Commit: Cleaner code and added challenge goal to challenges two, three and four.
 
 - Lucky Seven Commit: Cleaner code and added challenge goal to challenges five to seven. Plus I explained the reasons why there are two versions of challenge number six.
+
+- The ninth ~Gate~ Challenge: Cleaner code and added challenge goal to challenges eight and nine.

@@ -1,5 +1,6 @@
+/* This challenge asks for a simple thing. Repeat a string a determined amount of times. The string will be given as the first argument of the function ('str'), and the amount of times that it has to be repeated will be set as the second argument of the sentence ('num'). The only added thing to be considered, is 'num' being negative, where the 'return' should be an empty string. */
 
-function repeatStringNumTimes (str, num) {
+var repeatStringNumTimes = function (str, num) {
   var mainStr = ''
   var i = 0
   while (i < num) {
@@ -9,6 +10,4 @@ function repeatStringNumTimes (str, num) {
   return mainStr
 }
 
-console.log(repeatStringNumTimes('abc', 5))
-
-// The goal is to repeat the given string 'str' as many times as 'num' says.
+console.log(repeatStringNumTimes('abc', 125))

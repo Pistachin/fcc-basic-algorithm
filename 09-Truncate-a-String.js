@@ -1,11 +1,6 @@
-/* Main goal is to have a string with a length determined by 'num'.
- * This new string will end with '...' given the case that 'num' is less than str.length.
- * These three dots will count for the final length of the string.
- * Except when num forces the final string to be 3 letters or less.
- * 'str' will always be a string.
- * 'num' will always be a number.
- */
-function truncateString (str, num) {
+/* This challenge asks for a little bit more complex result than the previous ones. But this is due to the fact that the challenge itself has things to be cleared prior to resolving it. Then, what the challenge asks you to do is to break a string at a given point. The string will be the first argument of the sentence ('str'), and the length of the final string will be given as the second argument of the function ('num'). Given the case that 'num' is not a positive number, 'return' should be an empty string. After the returned string, three dots ('...') will be added, and these have to be counted in the final length, unless the value of 'num' is three or lower, then this three dots wouldn't count for the final length. */
+
+var truncateString = function (str, num) {
   var letters = num
   var finalStr = ''
   if (letters < str.length) {
