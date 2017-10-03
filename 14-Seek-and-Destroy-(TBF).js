@@ -1,7 +1,4 @@
-/* The goal of the challenge is to be able to eliminate elements from the array given as the first
- * argument, using to do that so what is given as arguments after the array.
- * I will always receive first an Array, then one or various conditions.
- */
+/* The goal of the challenge is to be able to eliminate elements from the array given as the first argument. To do it you'll have to filter it by using the rest of the function's arguments. You will always receive first an Array, then one or various conditions. */
 
 var destroyer = function (arr) {
   var givenData = Array.from(arguments)

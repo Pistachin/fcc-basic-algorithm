@@ -1,15 +1,13 @@
+/* This challenge requires you to return an array determined by a previous array (first argument of a given function) and a number (second argument of the same function). Your task will be to have a code that eliminates as many elements from the first array as the second argument says, starting to eliminate from the head (beginning, index 0) of the initial array. */
 
-function slasher (arr, howMany) {
-  var initialArray = arr
+var slasher = function (arr, howMany) {
   var amount = howMany
   var i = 0
   while (i < amount) {
-    initialArray.shift()
+    arr.shift()
     i++
   }
   return arr
 }
 
-slasher([1, 2, 3], 2)
-
-// El objetivo del algoritmo es tener un array que sea igual a 'arr' menos una cantidad de elementos definida por 'howMany', empezando el conteo de dichos elementos por la cabeza/head de la array. Es decir, el índice 0.
+console.log(slasher([1, 2, 3], 2))

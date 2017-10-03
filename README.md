@@ -17,7 +17,7 @@ What I will change is some real errors or styling. For instance, taking away unn
   - The 'console.log()' is not needed to solve the challenge in the FCC website.
   - There are some algorithms that I solved in more than one way, for different reasons. You'll find them with an ending such as 'v1' or 'v2'. Both should pass the FCC challenge.
   - The algorithm with 'R-version' was solved also two times. One by me and another by a senior front-end developer so it might not be as easy to read as the rest.
-  - 'TBF' means 'To Be Fixed', I still have to check why I thought it had to be fixed. And when it is fixed, the 'TBF' will be taken away from the name.
+  - 'TBF' means 'To Be Fixed'. When it is fixed, the 'TBF' will be taken away from the name.
 
 ### Commits Legend (ordered from eldest to most recent):
 
@@ -30,3 +30,5 @@ What I will change is some real errors or styling. For instance, taking away unn
 - Lucky Seven Commit: Cleaner code and added challenge goal to challenges five to seven. Plus I explained the reasons why there are two versions of challenge number six.
 
 - The ninth ~Gate~ Challenge: Cleaner code and added challenge goal to challenges eight and nine.
+
+- TBF Commit: Cleaner code and added challenge goal to challenges ten to fourteen, but challenge fourteen has not been fixed yet.
