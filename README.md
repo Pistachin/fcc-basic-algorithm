@@ -32,3 +32,5 @@ What I will change is some real errors or styling. For instance, taking away unn
 - The ninth ~Gate~ Challenge: Cleaner code and added challenge goal to challenges eight and nine.
 
 - TBF Commit: Cleaner code and added challenge goal to challenges ten to fourteen, but challenge fourteen has not been fixed yet.
+
+- It's the final ~Countdown~ Commit: Cleaner code and added challenge goal to last two challenges. Challenge 13 still needs to be fixed.

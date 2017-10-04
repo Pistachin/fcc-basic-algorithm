@@ -1,9 +1,5 @@
-/* The goal is to decipher or cipher the given text. Using the cipher method called ROT13.
- * The ROT13 states that each letter equals to one 13 places of distance on the latin alphabet.
- * This happens from letters 1 to 13, where letter 1 equals letter 14, and letter 5 for instance
- * equals letter 18. And it also goes backwards. So letter 15 would equal letter 15-13, therefore,
- * that would be letter number 2.
- */
+/* The final challenge is one of the most enjoyable challenges that I've done. It challenges you to 'decipher' things, which is funnier than just putting a number in it's right position. Then, the goal of this challenge is to use the cipher method called ROT13, which is based in the latin alphabet main version (without any special character that languages like spanish, german or portuguese might add). You have to decipher whatever it comes as first argument of the main function, this argument being always a string.  */
+
 function rot13 (str) { // LBH QVQ VG!
   var lowerCase = str.toLowerCase()
   var stringToArray = lowerCase.split('')
@@ -18,15 +14,13 @@ function rot13 (str) { // LBH QVQ VG!
     } else {
       return value
     }
-  });
+  })
   var modifiedValuesToLetters = modifiedUnicodeValues.map(function (value) {
     return String.fromCharCode(value)
-  });
+  })
   var stringedLetters = modifiedValuesToLetters.join('')
   var finalString = stringedLetters.toUpperCase()
   return finalString
 }
 
-// Change the inputs below to test
-
-console.log(rot13("LBH QVQ VG!"))
+console.log(rot13('LBH QVQ VG!'))
